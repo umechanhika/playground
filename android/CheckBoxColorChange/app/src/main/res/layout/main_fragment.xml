@@ -27,7 +27,7 @@
             app:buttonTint="@{viewModel.checkBox1Color}"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
-k
+
         <CheckBox
             android:id="@+id/checkBox2"
             android:layout_width="wrap_content"
