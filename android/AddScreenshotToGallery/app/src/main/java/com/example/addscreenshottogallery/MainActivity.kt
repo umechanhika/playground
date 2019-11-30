@@ -1,8 +1,9 @@
 package com.example.addscreenshottogallery
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import com.example.addscreenshottogallery.ui.main.MainFragment
+import com.example.addscreenshottogallery.ui.util.NotificationUtil
 
 class MainActivity : AppCompatActivity() {
 
@@ -14,6 +15,8 @@ class MainActivity : AppCompatActivity() {
         .replace(R.id.container, MainFragment.newInstance())
         .commitNow()
     }
+
+    NotificationUtil.createNotificationChannel(this)
   }
 
 }
