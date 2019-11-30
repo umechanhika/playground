@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">AddScreenshotToGallery</string>
+
+    <string name="permission_denied">この機能を利用する権限がありません。アプリの設定画面から権限を許可してください。</string>
+    <string name="complete_saving_screenshot">スクリーンショットを保存しました。</string>
+
+    <string name="title">サンプル</string>
+    <string name="message">スクリーンショットを撮影すると、このカードが画像として保存されます。</string>
+    <string name="take_screenshot">スクリーンショットを撮影する</string>
+
+    <string name="channel_name_screenshot">スクリーンショットの通知</string>
+    <string name="channel_description_screenshot">スクリーンショットを撮影した際に通知されます。</string>
 </resources>
