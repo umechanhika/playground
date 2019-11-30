@@ -34,6 +34,7 @@ object NotificationUtil {
       .setContentText(context.getString(R.string.complete_saving_screenshot))
       .setSmallIcon(R.drawable.ic_launcher_foreground)
       .setVibrate(longArrayOf(0, 100, 100, 100))
+      .setAutoCancel(true)
       .setStyle(NotificationCompat.BigPictureStyle().bigPicture(bitmap))
       .setContentIntent(PendingIntent.getActivity(context, 0, Intent(Intent.ACTION_VIEW, uri), 0))
       .build()
