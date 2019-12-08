@@ -7,8 +7,6 @@
 
         <import type="com.example.verticalandhorizontalsynchronousscrollview.ui.main.MainViewModel.ScrollType" />
 
-        <import type="android.view.ViewGroup" />
-
         <variable
             name="viewModel"
             type="com.example.verticalandhorizontalsynchronousscrollview.ui.main.MainViewModel" />
