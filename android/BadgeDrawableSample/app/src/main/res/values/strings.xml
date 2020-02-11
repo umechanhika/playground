@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">BadgeDrawableSample</string>
+
+    <string name="tab1">tab1</string>
+    <string name="tab2">tab2</string>
+    <string name="tab3">tab3</string>
+
+    <string name="bottom_navigation1">Nav1</string>
+    <string name="bottom_navigation2">Nav2</string>
+    <string name="bottom_navigation3">Nav3</string>
+
+    <string name="add_tab_dot_badge">Add tab dot badge</string>
+    <string name="increase_tab_badge_count">Increase tab badge count</string>
+    <string name="remove_all_tab_badges">Remove all tab badges</string>
+
+    <string name="add_bottom_nav_dot_badge">Add bottom nav dot badge</string>
+    <string name="increase_bottom_nav_badge_count">Increase bottom nav badge count</string>
+    <string name="remove_all_bottom_nav_badges">Remove all bottom nav badges</string>
+</resources>
